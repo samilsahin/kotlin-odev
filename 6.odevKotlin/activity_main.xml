@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/md_theme_dark_onPrimary"
+            app:title="Tek Sayfa Uygulamam"
+            app:titleTextColor="@android:color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:text="Dinazorlar"
+                android:textColor="?attr/colorOnBackground"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewSample"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/images_sample"
+                android:scaleType="centerCrop"
+                android:contentDescription="Örnek Manzara Görseli"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:text=" Dinozorlar, yaklaşık 230 milyon yıl önce ortaya çıkmış ve 66 milyon yıl önce kitlesel bir yok oluşla Dünya’dan silinmiş, sürüngenler sınıfına ait gizemli canlılardır. Mesozoik Çağ olarak adlandırılan bu uzun jeolojik dönemde, Triyas, Jura ve Kretase olmak üzere üç farklı evrede yeryüzüne hükmetmişlerdir. Dinozorlar, günümüz kuşlarının atası olarak kabul edilir ve bu bakımdan soylarının tamamen tükenmediği düşünülür.  Dinozorlar, çok çeşitli boyut, şekil ve yaşam tarzlarına sahipti. Bazıları etoburdu (örneğin Tyrannosaurus rex), bazıları ise otoburdu (örneğin Triceratops ve Brachiosaurus). T. rex gibi etobur dinozorlar, güçlü çeneleri ve keskin dişleriyle avlarını yakalarken, otoburlar uzun boyunları sayesinde yüksek ağaçlardaki yapraklara ulaşabiliyordu. Bilim insanları, dinozorların yalnızca kara hayvanları olmadığını, bazı türlerinin suda da yaşamış olabileceğini öne sürmektedir.  Dinozorlarla ilgili bilgi kaynağımız fosillerdir. Fosiller, kayalara gömülmüş kemik kalıntıları ya da ayak izleri gibi geçmiş canlılara ait kalıntılardır. Bu fosiller, dinozorların yapısı, yaşam biçimi ve evrimsel süreçleri hakkında pek çok ipucu verir. Günümüzde pek çok ülkede dinozor fosilleri bulunmuş ve müzelerde sergilenmektedir. En önemli dinozor fosili alanlarından bazıları Kuzey Amerika, Çin, Arjantin ve Moğolistan’dadır.  Dinozorların yok oluşu, bilim dünyasında hâlâ tartışma konusudur. En yaygın kabul gören teori, 66 milyon yıl önce Dünya’ya çarpan büyük bir göktaşının neden olduğu felakettir. Bu çarpışma sonucu atmosferde oluşan değişiklikler, uzun süren bir “nükleer kış” etkisi yaratarak bitkilerin ve dolayısıyla tüm ekosistemin çökmesine yol açmıştır. Bu olay sonucunda sadece dinozorlar değil, dönemin birçok canlı türü de yok olmuştur.  Modern bilim, dinozorların sadece tarih öncesi dönemde yaşamış gizemli yaratıklar olmadığını, aynı zamanda evrimsel sürecin bir parçası olduklarını göstermektedir. Bugünkü kuşların, küçük tüylü dinozorlardan evrimleştiği düşünülmektedir. Bu da demektir ki, dinozorların soyundan gelen canlılar hâlâ aramızda yaşıyor.  Sonuç olarak, dinozorlar yalnızca devasa boyutlarıyla değil, aynı zamanda Dünya’nın evrim tarihindeki rolleriyle de dikkat çeker. Fosil bilimi, jeoloji ve genetik gibi alanlarda yapılan araştırmalar sayesinde dinozorlar hakkında her geçen gün daha fazla bilgi ediniliyor. Bu etkileyici canlılar, hem bilim dünyasında hem de popüler kültürde insanların hayal gücünü beslemeye devam ediyor."
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
