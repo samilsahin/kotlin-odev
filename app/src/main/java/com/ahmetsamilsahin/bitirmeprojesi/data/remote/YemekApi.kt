@@ -1,7 +1,7 @@
-package com.bekirahmetli.bitirmeprojesi.data.remote
+package com.ahmetsamilsahin.bitirmeprojesi.data.remote
 
-import com.bekirahmetli.bitirmeprojesi.data.model.SepetCevap
-import com.bekirahmetli.bitirmeprojesi.data.model.YemeklerCevap
+import com.ahmetsamilsahin.bitirmeprojesi.data.model.SepetCevap
+import com.ahmetsamilsahin.bitirmeprojesi.data.model.YemeklerCevap
 import retrofit2.Call
 import retrofit2.http.*
 
