@@ -1,12 +1,12 @@
-package com.bekirahmetli.bitirmeprojesi.data.repository
+package com.ahmetsamilsahin.bitirmeprojesi.data.repository
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
-import com.bekirahmetli.bitirmeprojesi.data.remote.RetrofitClient
-import com.bekirahmetli.bitirmeprojesi.data.model.SepetCevap
-import com.bekirahmetli.bitirmeprojesi.data.model.SepetYemek
-import com.bekirahmetli.bitirmeprojesi.data.model.Yemek
-import com.bekirahmetli.bitirmeprojesi.data.model.YemeklerCevap
+import com.ahmetsamilsahin.bitirmeprojesi.data.remote.RetrofitClient
+import com.ahmetsamilsahin.bitirmeprojesi.data.model.SepetCevap
+import com.ahmetsamilsahin.bitirmeprojesi.data.model.SepetYemek
+import com.ahmetsamilsahin.bitirmeprojesi.data.model.Yemek
+import com.ahmetsamilsahin.bitirmeprojesi.data.model.YemeklerCevap
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
