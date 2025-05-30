@@ -7,11 +7,11 @@ android {
     buildFeatures{
         viewBinding = true
     }
-    namespace = "com.ahmetsamilsahin.bitirmeprojesi"
+    namespace = "com.bekirahmetli.bitirmeprojesi"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.ahmetsamilsahin.bitirmeprojesi"
+        applicationId = "com.bekirahmetli.bitirmeprojesi"
         minSdk = 28
         targetSdk = 35
         versionCode = 1
