@@ -1,4 +1,4 @@
-package com.bekirahmetli.bitirmeprojesi.data.model
+package com.ahmetsamilsahin.bitirmeprojesi.data.model
 
 data class SepetCevap(
     val sepet_yemekler: List<SepetYemek>?,
