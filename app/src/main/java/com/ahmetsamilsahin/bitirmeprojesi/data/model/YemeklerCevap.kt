@@ -1,4 +1,4 @@
-package com.bekirahmetli.bitirmeprojesi.data.model
+package com.ahmetsamilsahin.bitirmeprojesi.data.model
 
 data class YemeklerCevap(
     val yemekler: List<Yemek>,
