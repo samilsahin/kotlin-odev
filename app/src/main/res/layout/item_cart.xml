@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:layout_margin="10dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="#FFF8E1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/imgCartFood"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:elevation="4dp"/>
+
+        <TextView
+            android:id="@+id/tvCartFoodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yemek Adı"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FF9800"
+            android:layout_toEndOf="@id/imgCartFood"
+            android:layout_marginStart="18dp"
+            android:layout_alignTop="@id/imgCartFood"/>
+
+        <TextView
+            android:id="@+id/tvCartFoodCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adet: 2"
+            android:textSize="15sp"
+            android:textColor="#222"
+            android:layout_toEndOf="@id/imgCartFood"
+            android:layout_marginStart="18dp"
+            android:layout_below="@id/tvCartFoodName"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvCartFoodPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₺54"
+            android:textSize="18sp"
+            android:textColor="#388E3C"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/tvCartFoodName"/>
+
+        <ImageButton
+            android:id="@+id/btnDeleteCartFood"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete"
+            app:tint="#FF9800"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
