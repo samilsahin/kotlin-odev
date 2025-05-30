@@ -1,4 +1,4 @@
-package com.bekirahmetli.bitirmeprojesi.data.model
+package com.ahmetsamilsahin.bitirmeprojesi.data.model
 
 import java.io.Serializable
 
